@@ -1,6 +1,6 @@
 # SORTING 
 # TIME COMPLEXITY : 0(nlogn)
-# SPACE COMPLEXITY : 0(1) or O(n) phụ thuộ vào thuật toán sắp 
+# SPACE COMPLEXITY : 0(1) or O(n) phụ thuộc vào thuật toán sắp 
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
         nums.sort()
